@@ -10,4 +10,8 @@
 
   :test
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.0.632"}}}}}
+   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.0.632"}}}}
+
+ :mvn/repos
+ {"central"        {:url "https://repo1.maven.org/maven2/"}
+  "clojars"        {:url "https://clojars.org/repo"}}}
