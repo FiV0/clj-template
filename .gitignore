@@ -2,7 +2,6 @@
 .nrepl-port
 target
 repl
-scratch.clj
 .shadow-cljs
 target
 yarn.lock
