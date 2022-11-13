@@ -18,7 +18,8 @@
                :target-dir class-dir})
   (b/compile-clj {:basis basis
                   :src-dirs ["src"]
-                  :class-dir class-dir})
+                  :class-dir class-dir
+                  :bindings {#'clojure.core/*assert* false}})
   (b/uber {:class-dir class-dir
            :uber-file jar-file
            :main main
