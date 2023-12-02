@@ -6,7 +6,7 @@
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
 (def jar-file (format "target/%s-%s.jar" (name lib) version))
-(def main 'scratch)
+(def main 'main)
 
 (defn clean
   "Cleans the target path."

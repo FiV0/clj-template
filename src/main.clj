@@ -1,4 +1,4 @@
-(ns scratch
+(ns main
   (:gen-class))
 
 (defn -main [& args]

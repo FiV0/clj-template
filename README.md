@@ -2,7 +2,7 @@
 
 Executing the program can either be done via
 ```
-clj -M -m scratch :arg1 :arg2
+clj -M -m main :arg1 :arg2
 ```
 or by compiling a jar via
 ```
